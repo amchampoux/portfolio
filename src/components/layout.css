@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700');
+
 :root {
   --border-radius: 4px;
   --color-text: #333;
-  --color-primary: #7026b9;
+  --color-primary: #000000;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-sans: "Montserrat";
+  /* --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Montserrat"; */
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   --font-lg: 18px;
@@ -21,7 +25,7 @@
   --space-4: 24px;
   --space-5: 32px;
   --space-6: 64px;
-  --size-content: 54rem;
+  --size-content: 130rem;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
 }
@@ -55,7 +59,9 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 10px;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -74,8 +80,11 @@ h1 {
   margin: 0;
   margin-bottom: 3rem;
   padding: 0;
-  line-height: var(--line-height-dense);
-  letter-spacing: -0.01em;
+  line-height: var(--line-height-loose);
+  font-family: "Philosopher";
+  font-weight: 400;
+  font-size: 38px;
+  /* letter-spacing: -0.01em; */
 }
 h1 > b {
   color: var(--color-primary);

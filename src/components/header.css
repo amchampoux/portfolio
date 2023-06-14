@@ -1,0 +1,25 @@
+.nav-container {
+  margin: 0 auto;
+  padding: var(--space-4) var(--size-gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primary-link {
+  /* padding-left: 30px; */
+  font-size: var(--font-lg); 
+  text-decoration: none;;
+}
+
+.secondary-link {
+  padding-left: 30px;
+  font-size: var(--font-md); 
+  text-decoration: none;
+}
+
+/* .secondary-link:active, .secondary-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 10px;
+} */
