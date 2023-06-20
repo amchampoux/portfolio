@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 488px;
+  width: 100%;
+
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.content {
+  min-width: 350px;
+  width: 50%;
+  padding-top: 8vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+
+    @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.roles {
+  margin-top: -4vh;
+}

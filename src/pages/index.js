@@ -1,10 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
+import WorkHalf from "../components/WorkHalf/WorkHalf"
+import { StaticImage } from "gatsby-plugin-image"
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -14,20 +16,32 @@ export default function IndexPage() {
     <div className={styles.hero}>
       <h1 className={styles.title}>I am Anne-Marie, a UX Designer and Front-end developer living in Montreal.</h1>
     </div>
+    <WorkHalf
+        title="Garderie Griffin"
+        role="ux — ui — dev"
+        description="Designing and integrating a new website for a kindergarten."
+        buttonTitle="Read case study"
+        source="../images/example.png"
+        style={{ backgroundColor: `#FFF3E7` }}
+        image = {
+          <StaticImage
+          src="../images/Griffin/main.png"
+          loading="eager"
+          width={610}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+          style={{ marginBottom: `var(--space-3)` }}
+        />
+        }
+    />
+
 
       
-    {/* <div className={styles.textCenter}> */}
-      {/* <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      /> */}
+    {/* <div className={styles.textCenter}>  */}
 
-      {/* <p className={styles.intro}>
+
+       {/* <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
@@ -51,8 +65,8 @@ export default function IndexPage() {
           <p className={styles.listItemDescription}>{link.description}</p>
         </li>
       ))}
-    </ul> */}
-    {/* {moreLinks.map((link, i) => (
+    </ul> 
+    {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== moreLinks.length - 1 && <> · </>}
@@ -66,7 +80,7 @@ export default function IndexPage() {
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+// export const Head = () => <Seo title="Home" />
 
 // export default IndexPage
 
@@ -112,22 +126,22 @@ export const Head = () => <Seo title="Home" />
 // ]
 
 // const moreLinks = [
-  // { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  // {
-  //   text: "Documentation",
-  //   url: "https://gatsbyjs.com/docs/",
-  // },
-  // {
-  //   text: "Starters",
-  //   url: "https://gatsbyjs.com/starters/",
-  // },
-  // {
-  //   text: "Showcase",
-  //   url: "https://gatsbyjs.com/showcase/",
-  // },
-  // {
-  //   text: "Contributing",
-  //   url: "https://www.gatsbyjs.com/contributing/",
-  // },
-  // { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
+//   { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+//   {
+//     text: "Documentation",
+//     url: "https://gatsbyjs.com/docs/",
+//   },
+//   {
+//     text: "Starters",
+//     url: "https://gatsbyjs.com/starters/",
+//   },
+//   {
+//     text: "Showcase",
+//     url: "https://gatsbyjs.com/showcase/",
+//   },
+//   {
+//     text: "Contributing",
+//     url: "https://www.gatsbyjs.com/contributing/",
+//   },
+//   { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
 // ]
