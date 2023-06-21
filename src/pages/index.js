@@ -1,12 +1,14 @@
 import * as React from "react"
 import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
+import { navigate } from "gatsby"
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import WorkHalf from "../components/WorkHalf/WorkHalf"
 import { StaticImage } from "gatsby-plugin-image"
+import WorkFull from "../components/WorkFull/WorkFull"
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -17,23 +19,90 @@ export default function IndexPage() {
       <h1 className={styles.title}>I am Anne-Marie, a UX Designer and Front-end developer living in Montreal.</h1>
     </div>
     <WorkHalf
-        title="Garderie Griffin"
-        role="ux — ui — dev"
-        description="Designing and integrating a new website for a kindergarten."
-        buttonTitle="Read case study"
-        source="../images/example.png"
-        style={{ backgroundColor: `#FFF3E7` }}
-        image = {
-          <StaticImage
+      title="Garderie Griffin"
+      role="ux — ui — dev"
+      description="Designing and integrating a new website for a kindergarten."
+      buttonTitle="Read case study"
+      link={()=>{navigate("/garderie-griffin")}}
+      style={{ backgroundColor: `#FFF3E7` }}
+      image = {
+        <StaticImage
           src="../images/Griffin/main.png"
           loading="eager"
           width={610}
-          quality={95}
+          quality={100}
           formats={["auto", "webp", "avif"]}
           alt=""
-          style={{ marginBottom: `var(--space-3)` }}
         />
-        }
+      }
+    />
+    <WorkFull
+      title="Bottie"
+      role="ux — ui — dev"
+      description="Design and develop an AI Powered web app allowing a customer to buy a plant as a gift."
+      buttonTitle="Read case study"
+      style={{ backgroundColor: `#ECF4F3` }}
+      image = {
+        <StaticImage
+          src="../images/Bottie/main.png"
+          loading="eager"
+          width={957}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+        />
+      }
+    />
+    <WorkHalf
+      title="Transat x Mirego"
+      role="ux"
+      description="Rethink the mobile application experience."
+      buttonTitle="Read case study"
+      style={{ backgroundColor: `#E3E8EF` }}
+      image = {
+        <StaticImage
+          src="../images/Transat/main.png"
+          loading="eager"
+          height={475}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+        />
+      }
+    />
+    <WorkFull
+      title="Hogbnk"
+      role="ux — ui — dev"
+      description="Design and develop a budget management application."
+      buttonTitle="Read case study"
+      style={{ backgroundColor: `#F0E8E4` }}
+      image = {
+        <StaticImage
+          src="../images/Hogbnk/main.png"
+          loading="eager"
+          width={844}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+        />
+      }
+    />
+    <WorkHalf
+      title="Videotron x Sidlee"
+      role="ux"
+      description="Enhance the roaming on mobile experience for travelers."
+      buttonTitle="Read case study"
+      style={{ backgroundColor: `#EFECEB` }}
+      image = {
+        <StaticImage
+          src="../images/Videotron/main.png"
+          loading="eager"
+          width={591}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+        />
+      }
     />
 
 

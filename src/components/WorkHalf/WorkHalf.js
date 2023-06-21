@@ -1,6 +1,6 @@
 import * as React from "react"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 import "./WorkHalf.css"
+import "../layout.css"
 
 export default function WorkHalf(props) {
 
@@ -13,7 +13,8 @@ export default function WorkHalf(props) {
         <h1>{props.title}</h1>
         <p className="roles">{props.role}</p>
         <p className="description">{props.description}</p>
-        <button>{props.buttonTitle}</button>
+        <br/>
+        <button className="primary_button griffin" onClick={props.link}>{props.buttonTitle}</button>
       </div>  
     </div>
   )
