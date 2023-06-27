@@ -39,6 +39,9 @@ html {
   overflow-y: scroll;
 }
 body {
+ /* display: flex;  */
+ /* justify-content: center; */
+
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--color-text);
@@ -251,6 +254,7 @@ pre tt:after {
   z-index: 1;
   font-family: var(--font-sans);
   font-size: 18px;
+  width: fit-content;
  }
  
  .primary_button::before {
