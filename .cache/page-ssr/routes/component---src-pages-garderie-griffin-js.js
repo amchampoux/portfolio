@@ -126,6 +126,25 @@ module.exports["default"] = camelCase;
 
 /***/ }),
 
+/***/ "./src/components/index.module.css":
+/*!*****************************************!*\
+  !*** ./src/components/index.module.css ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "hero": () => (/* binding */ hero),
+/* harmony export */   "title": () => (/* binding */ title)
+/* harmony export */ });
+// Exports
+var hero = "index-module--hero--82553";
+var title = "index-module--title--20f3b";
+
+
+/***/ }),
+
 /***/ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js ***!
@@ -872,21 +891,68 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CaseStudyIntro_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyIntro_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _NewLineText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NewLineText */ "./src/components/NewLineText.js");
+
 
 
 
 function CaseStudyIntro(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "intro_title"
+  }, "Project overview"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "intro_content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Project overview"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "description"
-  }, props.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, props.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "primary_button"
+  }, props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "role"
-  }, props.role), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "client"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, props.client), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "date"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, props.date)));
+  }, props.role), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "client"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, props.client), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "date"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, props.date))));
+}
+;
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyProcess/CaseStudyProcess.js":
+/*!*************************************************************!*\
+  !*** ./src/components/CaseStudyProcess/CaseStudyProcess.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CaseStudyProcess)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CaseStudyProcess_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CaseStudyProcess.css */ "./src/components/CaseStudyProcess/CaseStudyProcess.css");
+/* harmony import */ var _CaseStudyProcess_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyProcess_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function CaseStudyProcess() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "process",
+    style: props.style
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "process_title"
+  }, "Design process"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(StaticImage, {
+    src: "../images/design-process.png",
+    loading: "eager",
+    width: 830,
+    quality: 100,
+    formats: ["auto", "webp", "avif"],
+    alt: "Design process"
+  }));
 }
 ;
 
@@ -1059,14 +1125,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_CaseStudyHeader_CaseStudyHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/CaseStudyHeader/CaseStudyHeader */ "./src/components/CaseStudyHeader/CaseStudyHeader.js");
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/CaseStudyIntro/CaseStudyIntro */ "./src/components/CaseStudyIntro/CaseStudyIntro.js");
-/* harmony import */ var _components_NewLineText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/NewLineText */ "./src/components/NewLineText.js");
+/* harmony import */ var _components_index_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/index.module.css */ "./src/components/index.module.css");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CaseStudyIntro/CaseStudyIntro */ "./src/components/CaseStudyIntro/CaseStudyIntro.js");
+/* harmony import */ var _components_CaseStudyProcess_CaseStudyProcess__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/CaseStudyProcess/CaseStudyProcess */ "./src/components/CaseStudyProcess/CaseStudyProcess.js");
 
 
 
 
 
+
+
+// import NewLineText from "../components/NewLineText"
 
 function GarderieGriffinPage() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyHeader_CaseStudyHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1074,7 +1144,7 @@ function GarderieGriffinPage() {
       backgroundColor: `#FFF3E7`
     },
     title: "Garderie Griffin",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
       src: "../images/Griffin/main.png",
       loading: "eager",
       width: 620,
@@ -1083,15 +1153,17 @@ function GarderieGriffinPage() {
       alt: "Garderie griffin website",
       __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1424201611.json */ "./.cache/caches/gatsby-plugin-image/1424201611.json")
     })
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    description: "Garderie Griffin is a private kindergarten, well established  in Montreal, Griffintown since 10 years./n Word of mouth was mainly how they acquire new clients. With the rise of newcomers in the neighborhood, a responsive website easily maintenable was a must have.",
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    description: 'Garderie Griffin is a private kindergarten, well established  in Montreal, Griffintown since 10 years.\n\nWord of mouth was mainly how they acquire new clients. With the rise of newcomers in the neighborhood, a responsive website easily maintenable was a must have.',
     buttonLabel: "Visit website",
-    role: "Line one\\nLine two\\nLine three",
+    role: 'User Experience\nVisual Design\nWordpress Integration',
     client: "Garderie Griffin",
     date: "2021 - today"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_NewLineText__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    text: 'Line one\nLine two\nLine three'
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Alllloooo"));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyProcess_CaseStudyProcess__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    style: {
+      backgroundColor: `#FFF3E7`
+    }
+  }));
 }
 
 /***/ }),
@@ -1110,6 +1182,16 @@ function GarderieGriffinPage() {
 /*!**********************************************************!*\
   !*** ./src/components/CaseStudyIntro/CaseStudyIntro.css ***!
   \**********************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyProcess/CaseStudyProcess.css":
+/*!**************************************************************!*\
+  !*** ./src/components/CaseStudyProcess/CaseStudyProcess.css ***!
+  \**************************************************************/
 /***/ (() => {
 
 
