@@ -840,6 +840,41 @@ Z.displayName = "StaticImage", Z.propTypes = Q;
 
 /***/ }),
 
+/***/ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js":
+/*!***********************************************************************!*\
+  !*** ./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CaseStudyContentBlock)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CaseStudyContentBlock_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CaseStudyContentBlock.css */ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.css");
+/* harmony import */ var _CaseStudyContentBlock_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyContentBlock_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function CaseStudyContentBlock(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, props.supertitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "content_title"
+  }, props.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "content_text"
+  }, props.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "content_image"
+  }, props === null || props === void 0 ? void 0 : props.image));
+}
+;
+
+/***/ }),
+
 /***/ "./src/components/CaseStudyHeader/CaseStudyHeader.js":
 /*!***********************************************************!*\
   !*** ./src/components/CaseStudyHeader/CaseStudyHeader.js ***!
@@ -939,20 +974,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function CaseStudyProcess() {
+function CaseStudyProcess(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "process",
     style: props.style
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "process_title"
-  }, "Design process"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(StaticImage, {
-    src: "../images/design-process.png",
-    loading: "eager",
-    width: 830,
-    quality: 100,
-    formats: ["auto", "webp", "avif"],
-    alt: "Design process"
-  }));
+  }, "Design process"), props.image);
 }
 ;
 
@@ -1126,9 +1154,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CaseStudyHeader_CaseStudyHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/CaseStudyHeader/CaseStudyHeader */ "./src/components/CaseStudyHeader/CaseStudyHeader.js");
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_index_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/index.module.css */ "./src/components/index.module.css");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CaseStudyIntro/CaseStudyIntro */ "./src/components/CaseStudyIntro/CaseStudyIntro.js");
 /* harmony import */ var _components_CaseStudyProcess_CaseStudyProcess__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/CaseStudyProcess/CaseStudyProcess */ "./src/components/CaseStudyProcess/CaseStudyProcess.js");
+/* harmony import */ var _components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/CaseStudyContentBlock/CaseStudyContentBlock */ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js");
+
 
 
 
@@ -1144,7 +1174,7 @@ function GarderieGriffinPage() {
       backgroundColor: `#FFF3E7`
     },
     title: "Garderie Griffin",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
       src: "../images/Griffin/main.png",
       loading: "eager",
       width: 620,
@@ -1162,9 +1192,32 @@ function GarderieGriffinPage() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyProcess_CaseStudyProcess__WEBPACK_IMPORTED_MODULE_5__["default"], {
     style: {
       backgroundColor: `#FFF3E7`
-    }
+    },
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+      src: "../images/design-process.png",
+      loading: "eager",
+      width: 830,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "Design process",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3776654823.json */ "./.cache/caches/gatsby-plugin-image/3776654823.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "empathize",
+    title: "User interviews",
+    text: 'Being a mother of two, I know how it feels trying to find the perfect kindergarten for your kid, visit a lot of places, subscribe to too many waiting lists, and start to stress out a few weeks before going back to work.\n\n Although I had my journey, I wanted to hear about the experience of other parents to have a clear understanding of the various challenges when searching for a kindergarten. I conducted interviews with four parents of Griffin Kindergarten and two parents who choose another place in the neighborhood.\n\n I asked them to explain their search process, their motivations, frustrations, and how they made their choice.'
   }));
 }
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.css":
+/*!************************************************************************!*\
+  !*** ./src/components/CaseStudyContentBlock/CaseStudyContentBlock.css ***!
+  \************************************************************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
@@ -1236,6 +1289,17 @@ function GarderieGriffinPage() {
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/995a0b59e45093f5e6099117fe8c9869/289c2/main.png","srcSet":"/static/995a0b59e45093f5e6099117fe8c9869/7d49a/main.png 155w,\\n/static/995a0b59e45093f5e6099117fe8c9869/78789/main.png 310w,\\n/static/995a0b59e45093f5e6099117fe8c9869/289c2/main.png 620w,\\n/static/995a0b59e45093f5e6099117fe8c9869/ab73c/main.png 1240w","sizes":"(min-width: 620px) 620px, 100vw"},"sources":[{"srcSet":"/static/995a0b59e45093f5e6099117fe8c9869/ccc92/main.avif 155w,\\n/static/995a0b59e45093f5e6099117fe8c9869/8122c/main.avif 310w,\\n/static/995a0b59e45093f5e6099117fe8c9869/3644c/main.avif 620w,\\n/static/995a0b59e45093f5e6099117fe8c9869/33f45/main.avif 1240w","type":"image/avif","sizes":"(min-width: 620px) 620px, 100vw"},{"srcSet":"/static/995a0b59e45093f5e6099117fe8c9869/581f3/main.webp 155w,\\n/static/995a0b59e45093f5e6099117fe8c9869/1c6cb/main.webp 310w,\\n/static/995a0b59e45093f5e6099117fe8c9869/7e5b0/main.webp 620w,\\n/static/995a0b59e45093f5e6099117fe8c9869/84433/main.webp 1240w","type":"image/webp","sizes":"(min-width: 620px) 620px, 100vw"}]},"width":620,"height":389}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3776654823.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3776654823.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/ae43f4668ef9c576ac90a9048eab3715/431e6/design-process.png","srcSet":"/static/ae43f4668ef9c576ac90a9048eab3715/a3d9f/design-process.png 208w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/eee49/design-process.png 415w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/431e6/design-process.png 830w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/5335b/design-process.png 1660w","sizes":"(min-width: 830px) 830px, 100vw"},"sources":[{"srcSet":"/static/ae43f4668ef9c576ac90a9048eab3715/7c7d5/design-process.avif 208w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/8839e/design-process.avif 415w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/4729c/design-process.avif 830w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/18bf3/design-process.avif 1660w","type":"image/avif","sizes":"(min-width: 830px) 830px, 100vw"},{"srcSet":"/static/ae43f4668ef9c576ac90a9048eab3715/80701/design-process.webp 208w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/fffe4/design-process.webp 415w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/e30e8/design-process.webp 830w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/cd5cf/design-process.webp 1660w","type":"image/webp","sizes":"(min-width: 830px) 830px, 100vw"}]},"width":830,"height":135}');
 
 /***/ }),
 

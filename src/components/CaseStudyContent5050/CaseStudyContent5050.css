@@ -1,0 +1,35 @@
+.content_5050 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.block_half{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 1vh;
+  margin-left: 1vh;
+  min-width: 664px;
+  padding: 3vh;
+
+  @media screen and (max-width: 1800px) {
+    width: 100%;
+    margin-bottom: 2vh;
+    margin-right: 0;
+    margin-left: 0;
+  } 
+}
+
+.half_title {
+  margin-top: -2vh;
+}
+
+.half_list {
+  margin-top: -2vh;
+}
+
+
