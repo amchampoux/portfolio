@@ -7,6 +7,8 @@ import CaseStudyIntro from "../components/CaseStudyIntro/CaseStudyIntro"
 import CaseStudyProcess from "../components/CaseStudyProcess/CaseStudyProcess"
 import CaseStudyContentBlock from "../components/CaseStudyContentBlock/CaseStudyContentBlock"
 import CaseStudyContent5050 from "../components/CaseStudyContent5050/CaseStudyContent5050"
+import CaseStudyContentVisual from "../components/CaseStudyContentVisual/CaseStudyContentVisual"
+import CaseStudyImage from "../components/CaseStudyImage/CaseStudyImage"
 // import NewLineText from "../components/NewLineText"
 
 export default function GarderieGriffinPage () {
@@ -31,6 +33,7 @@ export default function GarderieGriffinPage () {
       <CaseStudyIntro
         description={'Garderie Griffin is a private kindergarten, well established  in Montreal, Griffintown since 10 years.\n\nWord of mouth was mainly how they acquire new clients. With the rise of newcomers in the neighborhood, a responsive website easily maintenable was a must have.'}
         buttonLabel="Visit website"
+        link="https://garderiegriffin.com/en/home/"
         role= {'User Experience\nVisual Design\nWordpress Integration'}
         client="Garderie Griffin"
         date="2021 - today"
@@ -86,7 +89,7 @@ export default function GarderieGriffinPage () {
       <CaseStudyContentBlock
         supertitle="prototype"
         title="User flow"
-        text="The new mom and the professional constitute the major part of Garderie Griffin customer base. In order to make sure that the  solution will align with their navigation behaviour, I built a user flow."
+        text="The new mom and the professional constitute the major part of Garderie Griffin customer base. To make sure that the solution will align with their navigation behaviour, I built a user flow."
         image={
           <StaticImage
             src="../images/Griffin/userflow.png"
@@ -98,6 +101,98 @@ export default function GarderieGriffinPage () {
           />
         }
       />
+      <CaseStudyContentBlock
+        supertitle="prototype"
+        title="Information architecture"
+        text="Based on the user needs, their navigation pattern and the information available about the kindergarten, an information architecture was created and helped to structure the new website."
+        image={
+          <StaticImage
+            src="../images/Griffin/arbo.png"
+            loading="eager"
+            width={950}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="User flow"
+          />
+        }
+      />
+      <CaseStudyContentVisual
+        style={{ backgroundColor: `#EFEFEF` }}
+        supertitle="prototype"
+        title="Wireframing"
+        image={
+          <StaticImage
+            src="../images/Griffin/wireframes.png"
+            loading="eager"
+            width={1220}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="Website wireframes"
+          />
+        }
+      />
+      <CaseStudyContentBlock
+        supertitle="prototype"
+        title="UI style guide"
+        image={
+          <StaticImage
+            src="../images/Griffin/styleguide.png"
+            loading="eager"
+            width={950}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="User flow"
+          />
+        }
+      />
+      <CaseStudyContentVisual
+        style={{ backgroundColor: `#EFEFEF` }}
+        supertitle="prototype"
+        title="Mockups"
+        image={
+          <StaticImage
+            src="../images/Griffin/ui.png"
+            loading="eager"
+            width={1220}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="website ui mockups"
+          />
+        }
+      />
+      <CaseStudyContentBlock
+        supertitle="prototype"
+        title="Reusable components"
+        text="One of the objectives of the new website was to be easy to maintain. To make sure that the team members without prior programming knowledge can update the website, several reusable components have been created."
+        image={
+          <StaticImage
+            src="../images/Griffin/components.png"
+            loading="eager"
+            width={950}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="User flow"
+          />
+        }
+      />
+      <CaseStudyContentBlock
+        supertitle="test"
+        title="Usability testing"
+        text="Many iterations were done on the information architecture and mockups until most of the key users feed back were addressed. Today, the website is still evolving and it is really helpful to organize user testing session before implementing new features."
+      />
+      <CaseStudyImage
+       image={
+        <StaticImage
+          src="../images/Griffin/final.png"
+          loading="eager"
+          width={1353}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt="User flow"
+        />
+       }
+      />
+
     </Layout>
 
   )

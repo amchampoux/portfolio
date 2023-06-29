@@ -1,8 +1,11 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import "./header.css"
+import { withPrefix } from "gatsby"
+import PDF from '../static/amc-resume.pdf'
 
 export default function Header() {
+
   return (
     <header>
       <div className="nav-container">
@@ -11,8 +14,8 @@ export default function Header() {
         </div>
         <div className="nav-right">
           <Link className="secondary-link" to="/">Work</Link>
-          <Link className="secondary-link" to="/">About</Link>
-          <Link className="secondary-link" to="/">Resume</Link>
+          <Link className="secondary-link" to="/about">About</Link>
+          <a className="secondary-link" rel="noopener noreferrer" href={PDF} target="_blank"> Resume</a>
         </div>
       </div>
     </header>

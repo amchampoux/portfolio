@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+
+.description {
+  max-width: 600px;
+  margin-top: 8vh;
+}
+
+.profile {
+  max-width: 430px;
+  height: 100%;
+  
+}
+
+.fields {
+  list-style: none;
+  line-height: normal;
+  margin-left: 0;
+}

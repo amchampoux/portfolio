@@ -16,7 +16,7 @@ export default function IndexPage() {
   return (
   <Layout>
     <div className={styles.hero}>
-      <h1 className={styles.title}>I am Anne-Marie, a UX Designer and Front-end developer living in Montreal.</h1>
+      <h1 className={styles.title}>I am Anne-Marie, a Product Designer and Front-end Developer living in Montreal.</h1>
     </div>
     <WorkHalf
       title="Garderie Griffin"

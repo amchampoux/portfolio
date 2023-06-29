@@ -1,7 +1,7 @@
 .content_5050 {
   display: flex;
-  justify-content: center;
-  margin-bottom: 5vh;
+  justify-content: space-evenly;
+  margin-bottom: 2vh;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -11,16 +11,14 @@
   flex-direction: column;
   align-items: center;
 
-  margin-right: 1vh;
-  margin-left: 1vh;
-  min-width: 664px;
-  padding: 3vh;
+  /* margin-right: 1vh;
+  margin-left: 1vh; */
+  /* min-width: 664px; */
+  padding: 3vh 5vh 3vh 5vh;
 
   @media screen and (max-width: 1800px) {
     width: 100%;
     margin-bottom: 2vh;
-    margin-right: 0;
-    margin-left: 0;
   } 
 }
 

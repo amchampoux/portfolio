@@ -840,6 +840,49 @@ Z.displayName = "StaticImage", Z.propTypes = Q;
 
 /***/ }),
 
+/***/ "./src/components/CaseStudyContent5050/CaseStudyContent5050.js":
+/*!*********************************************************************!*\
+  !*** ./src/components/CaseStudyContent5050/CaseStudyContent5050.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CaseStudyContent5050)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CaseStudyContent5050_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CaseStudyContent5050.css */ "./src/components/CaseStudyContent5050/CaseStudyContent5050.css");
+/* harmony import */ var _CaseStudyContent5050_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyContent5050_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function CaseStudyContent5050(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "content_5050"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "block_half",
+    style: props.b1Style
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, props.b1Supertitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "half_title"
+  }, props.b1Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ol", {
+    className: "half_list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem3))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "block_half",
+    style: props.b2Style
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, props.b2Supertitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "half_title"
+  }, props.b2Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ol", {
+    className: "half_list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem3))));
+}
+;
+
+/***/ }),
+
 /***/ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js":
 /*!***********************************************************************!*\
   !*** ./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js ***!
@@ -862,14 +905,50 @@ __webpack_require__.r(__webpack_exports__);
 
 function CaseStudyContentBlock(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "content"
+    className: "block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "block_content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, props.supertitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "content_title"
   }, props.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "content_text"
-  }, props.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, props === null || props === void 0 ? void 0 : props.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "content_image"
-  }, props === null || props === void 0 ? void 0 : props.image));
+  }, props === null || props === void 0 ? void 0 : props.image)));
+}
+;
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyContentVisual/CaseStudyContentVisual.js":
+/*!*************************************************************************!*\
+  !*** ./src/components/CaseStudyContentVisual/CaseStudyContentVisual.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CaseStudyContentVisual)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CaseStudyContentVisual_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CaseStudyContentVisual.css */ "./src/components/CaseStudyContentVisual/CaseStudyContentVisual.css");
+/* harmony import */ var _CaseStudyContentVisual_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyContentVisual_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function CaseStudyContentVisual(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "content_visual",
+    style: props.style
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, props.supertitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "visual_title"
+  }, props.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "visual_image"
+  }, props.image));
 }
 ;
 
@@ -909,6 +988,35 @@ function CaseStudyHeader(props) {
 
 /***/ }),
 
+/***/ "./src/components/CaseStudyImage/CaseStudyImage.js":
+/*!*********************************************************!*\
+  !*** ./src/components/CaseStudyImage/CaseStudyImage.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CaseStudyImage)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CaseStudyImage_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CaseStudyImage.css */ "./src/components/CaseStudyImage/CaseStudyImage.css");
+/* harmony import */ var _CaseStudyImage_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyImage_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function CaseStudyImage(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "block_image"
+  }, props.image);
+}
+;
+
+/***/ }),
+
 /***/ "./src/components/CaseStudyIntro/CaseStudyIntro.js":
 /*!*********************************************************!*\
   !*** ./src/components/CaseStudyIntro/CaseStudyIntro.js ***!
@@ -926,23 +1034,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CaseStudyIntro_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyIntro_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _NewLineText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NewLineText */ "./src/components/NewLineText.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
 
 
 
 function CaseStudyIntro(props) {
+  const openInNewTab = url => {
+    window.open(url, "_blank", "noreferrer");
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "intro_title"
-  }, "Project overview"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "intro_title"
+  }, "Project overview"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "intro_description"
   }, props.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    role: "link",
+    onClick: () => openInNewTab(props.link),
     className: "primary_button"
   }, props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_right"
@@ -981,34 +1094,6 @@ function CaseStudyProcess(props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "process_title"
   }, "Design process"), props.image);
-}
-;
-
-/***/ }),
-
-/***/ "./src/components/NewLineText.js":
-/*!***************************************!*\
-  !*** ./src/components/NewLineText.js ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ NewLineText)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _NewLineText_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NewLineText.css */ "./src/components/NewLineText.css");
-/* harmony import */ var _NewLineText_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_NewLineText_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout.css */ "./src/components/layout.css");
-/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-function NewLineText(props) {
-  const text = props.text;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, text);
 }
 ;
 
@@ -1154,10 +1239,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CaseStudyHeader_CaseStudyHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/CaseStudyHeader/CaseStudyHeader */ "./src/components/CaseStudyHeader/CaseStudyHeader.js");
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_index_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/index.module.css */ "./src/components/index.module.css");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CaseStudyIntro/CaseStudyIntro */ "./src/components/CaseStudyIntro/CaseStudyIntro.js");
 /* harmony import */ var _components_CaseStudyProcess_CaseStudyProcess__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/CaseStudyProcess/CaseStudyProcess */ "./src/components/CaseStudyProcess/CaseStudyProcess.js");
 /* harmony import */ var _components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/CaseStudyContentBlock/CaseStudyContentBlock */ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js");
+/* harmony import */ var _components_CaseStudyContent5050_CaseStudyContent5050__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/CaseStudyContent5050/CaseStudyContent5050 */ "./src/components/CaseStudyContent5050/CaseStudyContent5050.js");
+/* harmony import */ var _components_CaseStudyContentVisual_CaseStudyContentVisual__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/CaseStudyContentVisual/CaseStudyContentVisual */ "./src/components/CaseStudyContentVisual/CaseStudyContentVisual.js");
+/* harmony import */ var _components_CaseStudyImage_CaseStudyImage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/CaseStudyImage/CaseStudyImage */ "./src/components/CaseStudyImage/CaseStudyImage.js");
+
+
+
 
 
 
@@ -1174,7 +1265,7 @@ function GarderieGriffinPage() {
       backgroundColor: `#FFF3E7`
     },
     title: "Garderie Griffin",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
       src: "../images/Griffin/main.png",
       loading: "eager",
       width: 620,
@@ -1186,6 +1277,7 @@ function GarderieGriffinPage() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__["default"], {
     description: 'Garderie Griffin is a private kindergarten, well established  in Montreal, Griffintown since 10 years.\n\nWord of mouth was mainly how they acquire new clients. With the rise of newcomers in the neighborhood, a responsive website easily maintenable was a must have.',
     buttonLabel: "Visit website",
+    link: "https://garderiegriffin.com/en/home/",
     role: 'User Experience\nVisual Design\nWordpress Integration',
     client: "Garderie Griffin",
     date: "2021 - today"
@@ -1193,7 +1285,7 @@ function GarderieGriffinPage() {
     style: {
       backgroundColor: `#FFF3E7`
     },
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
       src: "../images/design-process.png",
       loading: "eager",
       width: 830,
@@ -1205,9 +1297,144 @@ function GarderieGriffinPage() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
     supertitle: "empathize",
     title: "User interviews",
-    text: 'Being a mother of two, I know how it feels trying to find the perfect kindergarten for your kid, visit a lot of places, subscribe to too many waiting lists, and start to stress out a few weeks before going back to work.\n\n Although I had my journey, I wanted to hear about the experience of other parents to have a clear understanding of the various challenges when searching for a kindergarten. I conducted interviews with four parents of Griffin Kindergarten and two parents who choose another place in the neighborhood.\n\n I asked them to explain their search process, their motivations, frustrations, and how they made their choice.'
+    text: 'Being a mother of two, I know how it feels trying to find the perfect kindergarten for your kid, visit a lot of places, subscribe to too many waiting lists, and start to stress out a few weeks before going back to work.\n\nAlthough I had my journey, I wanted to hear about the experience of other parents to have a clear understanding of the various challenges when searching for a kindergarten. I conducted interviews with four parents of Griffin Kindergarten and two parents who choose another place in the neighborhood.\n\nI asked them to explain their search process, their motivations, frustrations, and how they made their choice.'
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "define",
+    title: "User personas",
+    text: "A lot of good insights came from the user interviews. Depending on the family situation, their location, the age of their kids, the needs where different. Those findings allowed me to define the main user personas to refer to along this project.",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/personas.png",
+      loading: "eager",
+      width: 915,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "User personas",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/222763410.json */ "./.cache/caches/gatsby-plugin-image/222763410.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContent5050_CaseStudyContent5050__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    b1Style: {
+      backgroundColor: `#FFF3E7`
+    },
+    b1Supertitle: "define",
+    b1Title: "The problem",
+    b1ListItem1: "People needs to have a good impression from the first click on the website.",
+    b1ListItem2: "People needs to understand he culture, the values and learn about the team.",
+    b1ListItem3: "People needs to access quickly to practical information.",
+    b2Style: {
+      backgroundColor: `#FFF3E7`
+    },
+    b2Supertitle: "ideate",
+    b2Title: "The solution",
+    b2ListItem1: "The use of vibrant colors and soft imagery can communicate comfort and childhood.",
+    b2ListItem2: "In-depth and well structured explanatory content pages.",
+    b2ListItem3: "Access to key sections from the first level of navigation."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "prototype",
+    title: "User flow",
+    text: "The new mom and the professional constitute the major part of Garderie Griffin customer base. To make sure that the solution will align with their navigation behaviour, I built a user flow.",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/userflow.png",
+      loading: "eager",
+      width: 641,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "User flow",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1565273313.json */ "./.cache/caches/gatsby-plugin-image/1565273313.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "prototype",
+    title: "Information architecture",
+    text: "Based on the user needs, their navigation pattern and the information available about the kindergarten, an information architecture was created and helped to structure the new website.",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/arbo.png",
+      loading: "eager",
+      width: 950,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "User flow",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2597828552.json */ "./.cache/caches/gatsby-plugin-image/2597828552.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentVisual_CaseStudyContentVisual__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    style: {
+      backgroundColor: `#EFEFEF`
+    },
+    supertitle: "prototype",
+    title: "Wireframing",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/wireframes.png",
+      loading: "eager",
+      width: 1220,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "Website wireframes",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3436535463.json */ "./.cache/caches/gatsby-plugin-image/3436535463.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "prototype",
+    title: "UI style guide",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/styleguide.png",
+      loading: "eager",
+      width: 950,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "User flow",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/858391228.json */ "./.cache/caches/gatsby-plugin-image/858391228.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentVisual_CaseStudyContentVisual__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    style: {
+      backgroundColor: `#EFEFEF`
+    },
+    supertitle: "prototype",
+    title: "Mockups",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/ui.png",
+      loading: "eager",
+      width: 1220,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "website ui mockups",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/428962660.json */ "./.cache/caches/gatsby-plugin-image/428962660.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "prototype",
+    title: "Reusable components",
+    text: "One of the objectives of the new website was to be easy to maintain. To make sure that the team members without prior programming knowledge can update the website, several reusable components have been created.",
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/components.png",
+      loading: "eager",
+      width: 950,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "User flow",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3218617686.json */ "./.cache/caches/gatsby-plugin-image/3218617686.json")
+    })
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    supertitle: "test",
+    title: "Usability testing",
+    text: "Many iterations were done on the information architecture and mockups until most of the key users feed back were addressed. Today, the website is still evolving and it is really helpful to organize user testing session before implementing new features."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyImage_CaseStudyImage__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+      src: "../images/Griffin/final.png",
+      loading: "eager",
+      width: 1353,
+      quality: 100,
+      formats: ["auto", "webp", "avif"],
+      alt: "User flow",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3240819332.json */ "./.cache/caches/gatsby-plugin-image/3240819332.json")
+    })
   }));
 }
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyContent5050/CaseStudyContent5050.css":
+/*!**********************************************************************!*\
+  !*** ./src/components/CaseStudyContent5050/CaseStudyContent5050.css ***!
+  \**********************************************************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
@@ -1221,10 +1448,30 @@ function GarderieGriffinPage() {
 
 /***/ }),
 
+/***/ "./src/components/CaseStudyContentVisual/CaseStudyContentVisual.css":
+/*!**************************************************************************!*\
+  !*** ./src/components/CaseStudyContentVisual/CaseStudyContentVisual.css ***!
+  \**************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
 /***/ "./src/components/CaseStudyHeader/CaseStudyHeader.css":
 /*!************************************************************!*\
   !*** ./src/components/CaseStudyHeader/CaseStudyHeader.css ***!
   \************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyImage/CaseStudyImage.css":
+/*!**********************************************************!*\
+  !*** ./src/components/CaseStudyImage/CaseStudyImage.css ***!
+  \**********************************************************/
 /***/ (() => {
 
 
@@ -1245,16 +1492,6 @@ function GarderieGriffinPage() {
 /*!**************************************************************!*\
   !*** ./src/components/CaseStudyProcess/CaseStudyProcess.css ***!
   \**************************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./src/components/NewLineText.css":
-/*!****************************************!*\
-  !*** ./src/components/NewLineText.css ***!
-  \****************************************/
 /***/ (() => {
 
 
@@ -1292,6 +1529,72 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1565273313.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1565273313.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/96d48ca68b3e1614f203cbf3306a5aed/5ff35/userflow.png","srcSet":"/static/96d48ca68b3e1614f203cbf3306a5aed/3581b/userflow.png 160w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/416b6/userflow.png 321w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/5ff35/userflow.png 641w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/0132d/userflow.png 1282w","sizes":"(min-width: 641px) 641px, 100vw"},"sources":[{"srcSet":"/static/96d48ca68b3e1614f203cbf3306a5aed/2cbbf/userflow.avif 160w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/0079d/userflow.avif 321w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/82e6c/userflow.avif 641w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/cd93e/userflow.avif 1282w","type":"image/avif","sizes":"(min-width: 641px) 641px, 100vw"},{"srcSet":"/static/96d48ca68b3e1614f203cbf3306a5aed/5faa0/userflow.webp 160w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/a50ca/userflow.webp 321w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/fc032/userflow.webp 641w,\\n/static/96d48ca68b3e1614f203cbf3306a5aed/967ee/userflow.webp 1282w","type":"image/webp","sizes":"(min-width: 641px) 641px, 100vw"}]},"width":641,"height":1193}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/222763410.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/222763410.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/465f4dbc9a9bb8dcac6a191de91543d0/1bd79/personas.png","srcSet":"/static/465f4dbc9a9bb8dcac6a191de91543d0/46e82/personas.png 229w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/df540/personas.png 458w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/1bd79/personas.png 915w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/a8053/personas.png 1830w","sizes":"(min-width: 915px) 915px, 100vw"},"sources":[{"srcSet":"/static/465f4dbc9a9bb8dcac6a191de91543d0/f3de3/personas.avif 229w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/c004e/personas.avif 458w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/4d95d/personas.avif 915w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/9acce/personas.avif 1830w","type":"image/avif","sizes":"(min-width: 915px) 915px, 100vw"},{"srcSet":"/static/465f4dbc9a9bb8dcac6a191de91543d0/5a5f9/personas.webp 229w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/dc6ab/personas.webp 458w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/2534b/personas.webp 915w,\\n/static/465f4dbc9a9bb8dcac6a191de91543d0/aaebd/personas.webp 1830w","type":"image/webp","sizes":"(min-width: 915px) 915px, 100vw"}]},"width":915,"height":862.0000000000001}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2597828552.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2597828552.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/af3b18a79339e2efe579872fb28fefd8/04345/arbo.png","srcSet":"/static/af3b18a79339e2efe579872fb28fefd8/0bc0a/arbo.png 238w,\\n/static/af3b18a79339e2efe579872fb28fefd8/739ad/arbo.png 475w,\\n/static/af3b18a79339e2efe579872fb28fefd8/04345/arbo.png 950w","sizes":"(min-width: 950px) 950px, 100vw"},"sources":[{"srcSet":"/static/af3b18a79339e2efe579872fb28fefd8/d56bf/arbo.avif 238w,\\n/static/af3b18a79339e2efe579872fb28fefd8/d8b54/arbo.avif 475w,\\n/static/af3b18a79339e2efe579872fb28fefd8/4b963/arbo.avif 950w","type":"image/avif","sizes":"(min-width: 950px) 950px, 100vw"},{"srcSet":"/static/af3b18a79339e2efe579872fb28fefd8/1d807/arbo.webp 238w,\\n/static/af3b18a79339e2efe579872fb28fefd8/55b56/arbo.webp 475w,\\n/static/af3b18a79339e2efe579872fb28fefd8/0b2d8/arbo.webp 950w","type":"image/webp","sizes":"(min-width: 950px) 950px, 100vw"}]},"width":950,"height":582}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3218617686.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3218617686.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/d056f1cc47fa1bc3de3b5dca7732a247/cbbd8/components.png","srcSet":"/static/d056f1cc47fa1bc3de3b5dca7732a247/fd866/components.png 238w,\\n/static/d056f1cc47fa1bc3de3b5dca7732a247/eb0e9/components.png 475w,\\n/static/d056f1cc47fa1bc3de3b5dca7732a247/cbbd8/components.png 950w","sizes":"(min-width: 950px) 950px, 100vw"},"sources":[{"srcSet":"/static/d056f1cc47fa1bc3de3b5dca7732a247/2d029/components.avif 238w,\\n/static/d056f1cc47fa1bc3de3b5dca7732a247/bae25/components.avif 475w,\\n/static/d056f1cc47fa1bc3de3b5dca7732a247/7520e/components.avif 950w","type":"image/avif","sizes":"(min-width: 950px) 950px, 100vw"},{"srcSet":"/static/d056f1cc47fa1bc3de3b5dca7732a247/ead0b/components.webp 238w,\\n/static/d056f1cc47fa1bc3de3b5dca7732a247/958d9/components.webp 475w,\\n/static/d056f1cc47fa1bc3de3b5dca7732a247/ddea5/components.webp 950w","type":"image/webp","sizes":"(min-width: 950px) 950px, 100vw"}]},"width":950,"height":2318}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3240819332.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3240819332.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2b6299ff034dafc8da949b0e8a2e6d88/ded39/final.png","srcSet":"/static/2b6299ff034dafc8da949b0e8a2e6d88/29f7c/final.png 338w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/3e46b/final.png 677w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/ded39/final.png 1353w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/513d3/final.png 2706w","sizes":"(min-width: 1353px) 1353px, 100vw"},"sources":[{"srcSet":"/static/2b6299ff034dafc8da949b0e8a2e6d88/3f7bd/final.avif 338w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/5d994/final.avif 677w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/c9c86/final.avif 1353w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/550cb/final.avif 2706w","type":"image/avif","sizes":"(min-width: 1353px) 1353px, 100vw"},{"srcSet":"/static/2b6299ff034dafc8da949b0e8a2e6d88/f2c91/final.webp 338w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/b454d/final.webp 677w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/c3032/final.webp 1353w,\\n/static/2b6299ff034dafc8da949b0e8a2e6d88/cfd2f/final.webp 2706w","type":"image/webp","sizes":"(min-width: 1353px) 1353px, 100vw"}]},"width":1353,"height":753}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3436535463.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3436535463.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/7c0f145220c08698ba251e31eaa22faf/d01ef/wireframes.png","srcSet":"/static/7c0f145220c08698ba251e31eaa22faf/a5e85/wireframes.png 305w,\\n/static/7c0f145220c08698ba251e31eaa22faf/148db/wireframes.png 610w,\\n/static/7c0f145220c08698ba251e31eaa22faf/d01ef/wireframes.png 1220w,\\n/static/7c0f145220c08698ba251e31eaa22faf/4062c/wireframes.png 2440w","sizes":"(min-width: 1220px) 1220px, 100vw"},"sources":[{"srcSet":"/static/7c0f145220c08698ba251e31eaa22faf/009aa/wireframes.avif 305w,\\n/static/7c0f145220c08698ba251e31eaa22faf/4fabf/wireframes.avif 610w,\\n/static/7c0f145220c08698ba251e31eaa22faf/fb6a6/wireframes.avif 1220w,\\n/static/7c0f145220c08698ba251e31eaa22faf/02fcc/wireframes.avif 2440w","type":"image/avif","sizes":"(min-width: 1220px) 1220px, 100vw"},{"srcSet":"/static/7c0f145220c08698ba251e31eaa22faf/10d1f/wireframes.webp 305w,\\n/static/7c0f145220c08698ba251e31eaa22faf/7eba5/wireframes.webp 610w,\\n/static/7c0f145220c08698ba251e31eaa22faf/cbc8c/wireframes.webp 1220w,\\n/static/7c0f145220c08698ba251e31eaa22faf/d1205/wireframes.webp 2440w","type":"image/webp","sizes":"(min-width: 1220px) 1220px, 100vw"}]},"width":1220,"height":951.9999999999999}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3776654823.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3776654823.json ***!
@@ -1300,6 +1603,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/ae43f4668ef9c576ac90a9048eab3715/431e6/design-process.png","srcSet":"/static/ae43f4668ef9c576ac90a9048eab3715/a3d9f/design-process.png 208w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/eee49/design-process.png 415w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/431e6/design-process.png 830w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/5335b/design-process.png 1660w","sizes":"(min-width: 830px) 830px, 100vw"},"sources":[{"srcSet":"/static/ae43f4668ef9c576ac90a9048eab3715/7c7d5/design-process.avif 208w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/8839e/design-process.avif 415w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/4729c/design-process.avif 830w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/18bf3/design-process.avif 1660w","type":"image/avif","sizes":"(min-width: 830px) 830px, 100vw"},{"srcSet":"/static/ae43f4668ef9c576ac90a9048eab3715/80701/design-process.webp 208w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/fffe4/design-process.webp 415w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/e30e8/design-process.webp 830w,\\n/static/ae43f4668ef9c576ac90a9048eab3715/cd5cf/design-process.webp 1660w","type":"image/webp","sizes":"(min-width: 830px) 830px, 100vw"}]},"width":830,"height":135}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/428962660.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/428962660.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/b77c6b269031dbd2fe002c48648cd7f1/2934f/ui.png","srcSet":"/static/b77c6b269031dbd2fe002c48648cd7f1/efca8/ui.png 305w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/ab663/ui.png 610w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/2934f/ui.png 1220w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/49bb7/ui.png 2440w","sizes":"(min-width: 1220px) 1220px, 100vw"},"sources":[{"srcSet":"/static/b77c6b269031dbd2fe002c48648cd7f1/da750/ui.avif 305w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/902a2/ui.avif 610w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/ff9cb/ui.avif 1220w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/7e88f/ui.avif 2440w","type":"image/avif","sizes":"(min-width: 1220px) 1220px, 100vw"},{"srcSet":"/static/b77c6b269031dbd2fe002c48648cd7f1/c8b8d/ui.webp 305w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/bff36/ui.webp 610w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/dd3d5/ui.webp 1220w,\\n/static/b77c6b269031dbd2fe002c48648cd7f1/e02ce/ui.webp 2440w","type":"image/webp","sizes":"(min-width: 1220px) 1220px, 100vw"}]},"width":1220,"height":562}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/858391228.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/858391228.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/6835c912b88cdc926d44f49a7fa9937c/264d3/styleguide.png","srcSet":"/static/6835c912b88cdc926d44f49a7fa9937c/a1cbf/styleguide.png 238w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/014cf/styleguide.png 475w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/264d3/styleguide.png 950w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/e2bf1/styleguide.png 1900w","sizes":"(min-width: 950px) 950px, 100vw"},"sources":[{"srcSet":"/static/6835c912b88cdc926d44f49a7fa9937c/f5c98/styleguide.avif 238w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/5ca0a/styleguide.avif 475w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/db48b/styleguide.avif 950w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/9711a/styleguide.avif 1900w","type":"image/avif","sizes":"(min-width: 950px) 950px, 100vw"},{"srcSet":"/static/6835c912b88cdc926d44f49a7fa9937c/0815c/styleguide.webp 238w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/4471a/styleguide.webp 475w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/7459e/styleguide.webp 950w,\\n/static/6835c912b88cdc926d44f49a7fa9937c/4eedf/styleguide.webp 1900w","type":"image/webp","sizes":"(min-width: 950px) 950px, 100vw"}]},"width":950,"height":721}');
 
 /***/ }),
 

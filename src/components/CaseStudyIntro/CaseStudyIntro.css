@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   margin-bottom: 5vh;
+  white-space: pre-wrap;
 }
 
 .intro_content {
@@ -38,4 +39,26 @@
 .intro_description{
   margin-top: -2vh;
   margin-bottom: 4vh;
+}
+
+.text-icon_button {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  color:#000000;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  width: fit-content;
+  
+  background-image: url(curved-arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 7.5vw;
+  background-size: 18px;
+  padding-right: 3vw;
 }

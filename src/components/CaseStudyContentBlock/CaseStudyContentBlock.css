@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   margin-bottom: 2vh;
-  /* background-color: rgb(234, 0, 255);  */
+  white-space: pre-wrap;
 }
 
 .block_content {
@@ -12,7 +12,6 @@
   flex-direction: column;
   align-content: flex-start;
   max-width: 950px;
-  /* background-color: aqua;   */
 }
 
 .content_title {
@@ -21,8 +20,8 @@
 
 .content_text{
   margin-top: -2vh;
-  /* background-color: bisque; */
 }
 .content_image {
+    padding-bottom: 4vh;
 
 }
