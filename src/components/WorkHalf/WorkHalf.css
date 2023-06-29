@@ -27,14 +27,15 @@
 .content {
   min-width: 350px;
   width: 50%;
-  padding: 12vh;
+  padding: 8vh 12vh 8vh 12vh;
 
   @media screen and (max-width: 900px) {
     width: 100%;
+    padding: 8vh;
   }
 }
 
 .roles {
-  margin-top: -5.5vh;
+  margin-top: -4.5vh;
   font-size: var( --font-md);
 }

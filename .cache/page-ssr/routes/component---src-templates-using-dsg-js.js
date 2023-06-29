@@ -2,6 +2,21 @@ exports.id = "component---src-templates-using-dsg-js";
 exports.ids = ["component---src-templates-using-dsg-js"];
 exports.modules = {
 
+/***/ "./src/static/amc-resume.pdf":
+/*!***********************************!*\
+  !*** ./src/static/amc-resume.pdf ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume-f6f715d181bb39684fc4fd4ed179ad5a.pdf");
+
+/***/ }),
+
 /***/ "./src/components/header.js":
 /*!**********************************!*\
   !*** ./src/components/header.js ***!
@@ -18,6 +33,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.css */ "./src/components/header.css");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _static_amc_resume_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume.pdf */ "./src/static/amc-resume.pdf");
+
+
 
 
 
@@ -36,11 +54,13 @@ function Header() {
     to: "/"
   }, "Work"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "secondary-link",
-    to: "/"
-  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/about"
+  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "secondary-link",
-    to: "/"
-  }, "Resume"))));
+    rel: "noopener noreferrer",
+    href: _static_amc_resume_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
+    target: "_blank"
+  }, " Resume"))));
 }
 ;
 // <header
