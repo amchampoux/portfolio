@@ -149,10 +149,10 @@ var fields = "about-module--fields--88a0c";
 
 /***/ }),
 
-/***/ "./src/static/amc-resume.pdf":
-/*!***********************************!*\
-  !*** ./src/static/amc-resume.pdf ***!
-  \***********************************/
+/***/ "./src/static/amc-resume1.pdf":
+/*!************************************!*\
+  !*** ./src/static/amc-resume1.pdf ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -160,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume-f6f715d181bb39684fc4fd4ed179ad5a.pdf");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume1-e212659111e313c630bde34d853d41c7.pdf");
 
 /***/ }),
 
@@ -875,7 +875,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.css */ "./src/components/header.css");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _static_amc_resume_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume.pdf */ "./src/static/amc-resume.pdf");
+/* harmony import */ var _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume1.pdf */ "./src/static/amc-resume1.pdf");
 
 
 
@@ -900,7 +900,7 @@ function Header() {
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "secondary-link",
     rel: "noopener noreferrer",
-    href: _static_amc_resume_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
+    href: _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
     target: "_blank"
   }, " Resume"))));
 }
@@ -1022,9 +1022,9 @@ function AboutPage() {
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2777402924.json */ "./.cache/caches/gatsby-plugin-image/2777402924.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: _components_about_module_css__WEBPACK_IMPORTED_MODULE_2__.description
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hi, I am Anne-Marie!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I am a Product Designer and Front-end Developer with a passion for creating user-centric products. I am committed to delivering engaging and meaningful user experiences."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Every time I see a smile on someone using a website or an application I worked on, it reminds me why I do what I do: To help people in their daily life, to improve productivity at work, to ease access to information, or just to entertain."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "As far as I remember, I have always had an attraction and talent for the arts. But it took time before I find my way into digital design. With the rise of social media around 2010, I realize that I wanted to have an impact on people through the technology that was taking more and more place in our lives."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I completed a master's degree in Interaction design at Laval University (Quebec), where I learned about interface design, information architecture, and design fundamentals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "From there, my career as a UX designer started. I had the chance to work on websites and mobile applications in various fields:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hi, I am Anne-Marie."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I am a Product Designer and Front-end Developer with a passion for creating user-centric products. I am committed to delivering engaging and meaningful user experiences."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Every time I someone enjoy an application I worked on, it reminds me why I do what I do: To help people in their daily life, to improve productivity at work, to ease access to information, or just to entertain."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "As far as I remember, I have always had an attraction and talent for the arts. It took time before I find my way into digital design. With the rise of social media around 2010, I realize that I wanted to have an impact on people through the technology that was taking more and more place in our lives."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I completed a Master's degree in Interaction design at Laval University where I learned about interface design, information architecture, and design fundamentals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "From there, my career as a UX designer started. I had the chance to work in various fields:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: _components_about_module_css__WEBPACK_IMPORTED_MODULE_2__.fields
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCB0 Banking"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCFA Entertainment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83C\uDF77 E-Commerce"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\u2708\uFE0F Traveling"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, " And more!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With every new project, comes an industry with its trends, users, behaviors, and goals to achieve. It is fulfilling to immerse yourself in a new environment every time and be able to create a product that matters."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Working in interactive agencies for more than 10 years now, I had the chance to were multiple hats, including the one of Product Owner. As well, during the last few years, I decided to leap into development. What was at first a hobby became a passion, so I undertook to perfect my learning with LightHouseLabs. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hard work pays off, and today, I am happy to be working on what I love \u2764\uFE0F "))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCB0 Banking"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCFA Entertainment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83C\uDF77 E-Commerce"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\u2708\uFE0F Traveling"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, " And more!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With every new project, comes an industry with its trends, users, behaviors, and goals to achieve. It is fulfilling to immerse yourself in a new environment every time and to create a product that matters."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Working in interactive agencies for more than 10 years now, I had the chance to were multiple hats, including the one of Product Owner. As well, during the last few years, I decided to leap into development. What was at first a hobby became a passion, so I undertook to perfect my learning with LightHouseLabs. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hard work pays off, and today, I am happy to be working on what I love \u2764\uFE0F "))));
 }
 
 /***/ }),

@@ -37,10 +37,11 @@ export default function IndexPage() {
       }
     />
     <WorkFull
-      title="Bottie"
+      title="Aunt Bottie"
       role="ux — ui — dev"
       description="Design and develop an AI Powered web app allowing a customer to buy a plant as a gift."
       buttonTitle="Read case study"
+      link={()=>{navigate("/aunt-bottie")}}
       style={{ backgroundColor: `#ECF4F3` }}
       image = {
         <StaticImage

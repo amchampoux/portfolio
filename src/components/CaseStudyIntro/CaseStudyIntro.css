@@ -27,12 +27,13 @@
 }
 
 .intro_right{
-  min-width: 300px;
-  margin-top: 6.5vh;
+  width: 300px;
+  margin-top: 4vh;
 
   @media screen and (max-width: 1200px) {
-    width: 100%; 
+    width: 75%; 
     margin-top: -1vh;
+    
   }
 }
 

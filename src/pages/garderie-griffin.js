@@ -35,7 +35,8 @@ export default function GarderieGriffinPage () {
         buttonLabel="Visit website"
         link="https://garderiegriffin.com/en/home/"
         role= {'User Experience\nVisual Design\nWordpress Integration'}
-        client="Garderie Griffin"
+        flexTitle="Client"
+        flexDescription="Garderie Griffin"
         date="2021 - today"
       />
       <CaseStudyProcess 

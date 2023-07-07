@@ -12,7 +12,6 @@ export default function CaseStudyIntro(props) {
 
   return (
     <div className="intro">
-      
       <div className="intro_content">
         <div className="intro_left">
           <h1 className="intro_title">Project overview</h1>
@@ -24,16 +23,15 @@ export default function CaseStudyIntro(props) {
             {props.buttonLabel}
           </button>
         </div>
-
         <div className="intro_right">
           <h3>role</h3>
           <p className="role">{props.role}</p>
-          <h3>client</h3>
-          <p>{props.client}</p>
+          <h3>{props.flexTitle}</h3>
+          <p>{props.flexDescription}</p>
           <h3>date</h3>
           <p>{props.date}</p>
         </div>
       </div>
   </div>
-  )
+  );
 };

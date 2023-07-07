@@ -2,10 +2,10 @@ exports.id = "component---src-pages-page-2-jshead";
 exports.ids = ["component---src-pages-page-2-jshead"];
 exports.modules = {
 
-/***/ "./src/static/amc-resume.pdf":
-/*!***********************************!*\
-  !*** ./src/static/amc-resume.pdf ***!
-  \***********************************/
+/***/ "./src/static/amc-resume1.pdf":
+/*!************************************!*\
+  !*** ./src/static/amc-resume1.pdf ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume-f6f715d181bb39684fc4fd4ed179ad5a.pdf");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume1-e212659111e313c630bde34d853d41c7.pdf");
 
 /***/ }),
 
@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.css */ "./src/components/header.css");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _static_amc_resume_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume.pdf */ "./src/static/amc-resume.pdf");
+/* harmony import */ var _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume1.pdf */ "./src/static/amc-resume1.pdf");
 
 
 
@@ -58,7 +58,7 @@ function Header() {
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "secondary-link",
     rel: "noopener noreferrer",
-    href: _static_amc_resume_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
+    href: _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
     target: "_blank"
   }, " Resume"))));
 }
