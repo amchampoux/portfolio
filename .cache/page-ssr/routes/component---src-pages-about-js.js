@@ -135,10 +135,10 @@ module.exports["default"] = camelCase;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "about": () => (/* binding */ about),
-/* harmony export */   "description": () => (/* binding */ description),
-/* harmony export */   "fields": () => (/* binding */ fields),
-/* harmony export */   "profile": () => (/* binding */ profile)
+/* harmony export */   about: () => (/* binding */ about),
+/* harmony export */   description: () => (/* binding */ description),
+/* harmony export */   fields: () => (/* binding */ fields),
+/* harmony export */   profile: () => (/* binding */ profile)
 /* harmony export */ });
 // Exports
 var about = "about-module--about--973b9";
@@ -173,17 +173,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "GatsbyImage": () => (/* binding */ X),
-/* harmony export */   "MainImage": () => (/* binding */ D),
-/* harmony export */   "Placeholder": () => (/* binding */ C),
-/* harmony export */   "StaticImage": () => (/* binding */ Z),
-/* harmony export */   "generateImageData": () => (/* binding */ b),
-/* harmony export */   "getImage": () => (/* binding */ I),
-/* harmony export */   "getImageData": () => (/* binding */ R),
-/* harmony export */   "getLowResolutionImageURL": () => (/* binding */ y),
-/* harmony export */   "getSrc": () => (/* binding */ W),
-/* harmony export */   "getSrcSet": () => (/* binding */ j),
-/* harmony export */   "withArtDirection": () => (/* binding */ _)
+/* harmony export */   GatsbyImage: () => (/* binding */ X),
+/* harmony export */   MainImage: () => (/* binding */ D),
+/* harmony export */   Placeholder: () => (/* binding */ C),
+/* harmony export */   StaticImage: () => (/* binding */ Z),
+/* harmony export */   generateImageData: () => (/* binding */ b),
+/* harmony export */   getImage: () => (/* binding */ I),
+/* harmony export */   getImageData: () => (/* binding */ R),
+/* harmony export */   getLowResolutionImageURL: () => (/* binding */ y),
+/* harmony export */   getSrc: () => (/* binding */ W),
+/* harmony export */   getSrcSet: () => (/* binding */ j),
+/* harmony export */   withArtDirection: () => (/* binding */ _)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -843,7 +843,7 @@ var P = ["children"],
   },
   K = new Set(["fixed", "fullWidth", "constrained"]),
   Q = {
-    src: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+    src: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string).isRequired,
     alt: function (e, t, a) {
       return e.alt || "" === e.alt ? prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.apply((prop_types__WEBPACK_IMPORTED_MODULE_2___default()), [e, t, a].concat([].slice.call(arguments, 3))) : new Error('The "alt" prop is required in ' + a + '. If the image is purely presentational then pass an empty string: e.g. alt="". Learn more: https://a11y-style-guide.com/style-guide/section-media.html');
     },
