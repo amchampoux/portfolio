@@ -61,17 +61,16 @@ a {
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
 }
-a:active,
+
 a:hover {
   outline-width: 0;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 10px;
+
 }
+
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
@@ -259,7 +258,6 @@ pre tt:after {
   color:#000000;
   cursor: pointer;
   background-color: transparent;
-  /* text-decoration: none; */
   font-family: var(--font-sans);
   font-size: 14px;
   border-radius: 22px;
@@ -276,8 +274,6 @@ pre tt:after {
  .primary_button:focus {
   color:#FFFFFF;
   background-color: #000000;
-  /* opacity: 0.2; */
-
  }
 
 

@@ -7,19 +7,32 @@
 }
 
 .primary-link {
-  /* padding-left: 30px; */
   font-size: var(--font-lg); 
-  text-decoration: none;;
+  font-weight: 600;
+  text-decoration: none !important;
+
+  @media screen and (max-width: 400px) {
+    font-size: var(--font-md); 
+  }
 }
 
 .secondary-link {
   padding-left: 30px;
   font-size: var(--font-md); 
-  text-decoration: none;
+
+  @media screen and (max-width: 400px) {
+    padding-left: 15px;
+    font-size: var(--font-sm); 
+  }
 }
 
-/* .secondary-link:active, .secondary-link:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 10px;
-} */
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+

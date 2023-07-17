@@ -1071,7 +1071,7 @@ function CaseStudyIntro(props) {
   }, props.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     role: "link",
     onClick: () => openInNewTab(props.link),
-    className: "text-icon_button"
+    className: "primary_button"
   }, props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
@@ -1296,8 +1296,8 @@ function AuntBottiePage() {
     })
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__["default"], {
     description: 'Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gift and getting a personal card to accompany the delivery.\n\nThis application MVP was done as part of the LightHouseLabs Full Stack Web development Bootcamp.',
-    buttonLabel: "Visit website",
-    link: "https://garderiegriffin.com/en/home/",
+    buttonLabel: "See on GitHub",
+    link: "https://github.com/amchampoux/bottie",
     role: 'User Experience\nVisual Design\nDevelopment',
     flexTitle: "Stack",
     flexDescription: "React, Typescript, Axios, Express, Node.js, PostgreSQL, ChatGPT",

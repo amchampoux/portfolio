@@ -1071,7 +1071,7 @@ function CaseStudyIntro(props) {
   }, props.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     role: "link",
     onClick: () => openInNewTab(props.link),
-    className: "text-icon_button"
+    className: "primary_button"
   }, props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
