@@ -10,7 +10,6 @@ export default function WorkFull(props) {
         <h1>{props.title}</h1>
         <p className="roles">{props.role}</p>
         <p className="description">{props.description}</p>
-        <br/>
         <button className="primary_button griffin" onClick={props.link}>{props.buttonTitle}</button>
       </div>  
       <div className="image_full">

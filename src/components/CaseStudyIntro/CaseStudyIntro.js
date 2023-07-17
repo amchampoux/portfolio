@@ -19,7 +19,7 @@ export default function CaseStudyIntro(props) {
           <button 
             role="link"
             onClick={() => openInNewTab(props.link)}
-            className="text-icon_button">
+            className="primary_button">
             {props.buttonLabel}
           </button>
         </div>

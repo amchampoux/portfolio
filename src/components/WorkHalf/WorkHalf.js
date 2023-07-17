@@ -13,7 +13,7 @@ export default function WorkHalf(props) {
         <h1>{props.title}</h1>
         <p className="roles">{props.role}</p>
         <p className="description">{props.description}</p>
-        <br/>
+        {/* <br/> */}
         <button className="primary_button griffin" onClick={props.link}>{props.buttonTitle}</button>
       </div>  
     </div>

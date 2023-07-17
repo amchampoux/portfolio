@@ -32,8 +32,8 @@ export default function AuntBottiePage () {
       />
       <CaseStudyIntro
         description={'Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gift and getting a personal card to accompany the delivery.\n\nThis application MVP was done as part of the LightHouseLabs Full Stack Web development Bootcamp.'}
-        buttonLabel="Visit website"
-        link="https://garderiegriffin.com/en/home/"
+        buttonLabel="See on GitHub"
+        link="https://github.com/amchampoux/bottie"
         role= {'User Experience\nVisual Design\nDevelopment'}
         flexTitle="Stack"
         flexDescription="React, Typescript, Axios, Express, Node.js, PostgreSQL, ChatGPT"

@@ -22,7 +22,7 @@
 
   @media screen and (max-width: 1200px) {
     width: 100%;
-    margin-top: -4vh;
+    margin-top: -2vh;
     margin-left: 0;
     margin-bottom: 8vh;
   }
@@ -35,6 +35,8 @@
 
   @media screen and (max-width: 1200px) {
     width: 100%;
+    padding: 5vh;
   }
 }
+
 

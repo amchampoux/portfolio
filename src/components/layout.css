@@ -51,6 +51,10 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+
+  @media screen and (max-width: 768px) {
+    font-size: var(--font-md);
+  } 
 }
 a {
   background-color: transparent;
@@ -89,6 +93,11 @@ h1 {
   font-family: "Philosopher";
   font-weight: 400;
   font-size: 38px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+    line-height: var(--line-height-normal)
+  } 
 }
 h1 > b {
   color: var(--color-primary);
@@ -98,6 +107,10 @@ h3 {
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: var(--font-lg);
+
+  @media screen and (max-width: 768px) {
+    font-size: var(--font-sm);
+  } 
 }
 img {
   border-style: none;
@@ -243,37 +256,36 @@ pre tt:after {
 }
 
 .primary_button {
-  display: inline-block;
-  padding: 0.9rem 1.8rem;
   color:#000000;
   cursor: pointer;
-  position: relative;
   background-color: transparent;
-  text-decoration: none;
-  overflow: hidden;
-  z-index: 1;
+  /* text-decoration: none; */
   font-family: var(--font-sans);
-  font-size: 18px;
+  font-size: 14px;
+  border-radius: 22px;
+  border-color: #000000;
+  border-width: 2px;
+  font-weight: 600;
+  height: 44px;
   width: fit-content;
- }
- 
- .primary_button::before {
-  content: "";
-  position: absolute;
-
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #FFFFFF;
-  opacity: 1;
-
-  transform: translateX(-100%);
-  transition: all .3s;
-  z-index: -1 ;
+  padding-left: 22px;
+  padding-right: 22px;
  }
 
- .primary_button:hover::before {
-  transform: translateX(0);
+ .primary_button:hover,
+ .primary_button:focus {
+  color:#FFFFFF;
+  background-color: #000000;
+  /* opacity: 0.2; */
+
  }
+
+
+
+
+
+
+
+
+
 
