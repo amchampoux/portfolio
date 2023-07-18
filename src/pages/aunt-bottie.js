@@ -9,6 +9,7 @@ import CaseStudyContentBlock from "../components/CaseStudyContentBlock/CaseStudy
 import CaseStudyContent5050 from "../components/CaseStudyContent5050/CaseStudyContent5050"
 import CaseStudyContentVisual from "../components/CaseStudyContentVisual/CaseStudyContentVisual"
 import CaseStudyImage from "../components/CaseStudyImage/CaseStudyImage"
+import CaseStudyQuote from "../components/CaseStudyQuote/CaseStudyQuote"
 // import NewLineText from "../components/NewLineText"
 
 export default function AuntBottiePage () {
@@ -74,6 +75,11 @@ export default function AuntBottiePage () {
             <li>ChatGPT is a text-generating AI and reached more than 100 million users in a shorter time than any other software in history (less than 2 months). (findweb3)</li>
           </ul>
         </div>
+        }
+      />
+      <CaseStudyQuote
+        style= {{ backgroundColor: `#ECF4F3` }}
+          text={'60-70% of plant purchasers indicate a positive likelihood to gift a houseplant. “Get Well” being the most likely occasion at 75.1%, “Mother’s Day” at 72.9% and “Thank You” at 71.7%.\n\nFloral Marketing Fund' 
         }
       />
 
