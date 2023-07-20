@@ -32,7 +32,7 @@ export default function VideotronPage () {
         }
       />
       <CaseStudyIntro
-        description={"Videotron the Sid Lee team to support them in the implementation of the mobile roaming pass, a new service available to their customers traveling to Canada, the USA, and Europe.\n\nAs the UX Designer on the project, my goal was to understand the service and its technical dependencies to recommend the best user experience from the moment the client exit the country to its return."}
+        description={"Videotron mandated the Sid Lee team to support them in the implementation of the mobile roaming pass, a new service available to their customers traveling to Canada, the USA, and Europe.\n\nAs the UX Designer on the project, my goal was to understand the service and its technical dependencies to recommend the best user experience from the exit of the country to the return."}
         role= {'User Experience'}
         flexTitle="client"
         flexDescription="Videotron"
@@ -55,66 +55,47 @@ export default function VideotronPage () {
       />
       <CaseStudyContentBlock
         supertitle="empathize"
-        title="Market research"
-        text={"The first step was to ensure that the team understand the current mobile application usage and was aware of the user's feedback. An analysis of the available metrics and store reviews has been completed and the results shared with all project stakeholders.\n\nAdditional research was done as well to develop a common understanding of the typical traveler habits and the competition offer."}
-      />
-      <CaseStudyContentBlock
-        supertitle="empathize"
-        title="Mobile trends"
-        text="It is a proven practice to increase research to other industries to stand out from the competition. We looked into some mobile application trends to find new patterns well-known by mobile application users to bring the Transat mobile application to another level."
-        image={
-          <StaticImage
-            src="../images/Transat/trends.png"
-            loading="eager"
-            width={950}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="Benchmark"
-          />
+        title="Market, product and user research"
+        text={
+          <div>
+            <p>In collaboration with the Videotron team, the first step was to understand the new mobile roaming pass technical requirements. The engineering team led a couple of working sessions to share their knowledge with the product and design team.</p>
+            <p>Then, it was important to understand how travelers interact with their mobile service when outside of their service coverage zone. Time was running, but we did a few interviews with frequent and occasional travelers. Here are some of the key findings:</p>
+            <ul>
+              <li>Occasional travelers are stressed about getting charged for data usage.</li>
+              <li>During a trip, people are often in a hurry and don’t have time to read.</li>
+              <li>Most people don't know exactly where to find information about roaming and tend to call the customer center before their travel.</li>
+            </ul>
+          </div>
+
         }
       />
-      <CaseStudyContent5050
-        b1Style= {{ backgroundColor: `#E3E8EF` }}
-        b1Supertitle= "define"
-        b1Title= "The problem"
-        b1ListItem1= "Despite the presence of a diary, several essential travel information are not indicated."
-        b1ListItem2= "Only a few direct links to purchase complementary products to enhance the travel experience."
-        b1ListItem3= "We cannot link a travel to a specific traveler in order to personalize the experience."
-
-        b2Style= {{ backgroundColor: `#E3E8EF` }}
-        b2Supertitle= "ideate"
-        b2Title= "The solution"
-        b2ListItem1= "Better inform and anticipate customer questions by facilitating access to information, before, during, and after his trip."
-        b2ListItem2= "Simplify access to complementary products."
-        b2ListItem3= "Increase the knowledge of the users to better meet their needs."
-      />
       <CaseStudyContentBlock
-        supertitle="ideate"
-        title="Crazy 8"
-        text={"All project stakeholders were involved in the creative process. After establishing the problem and defining a solution perimeter, some brainstorming activities were organized. A Crazy 8 workshop was planned in two parts: A maximum solution for a specific question needed to be drawn in eight minutes. Then, after a round of presentations, we voted for our favorite ones.\n\nThe second workshop that took place was a whiteboard session where we visually explored some concepts voted on previously. After those sessions, the UX team was ready to craft the first wireframes."}
+        supertitle="define and ideate"
+        title="Objectives"
+        text="A brainstorm was organized to set the project objectives. We needed to find some solutions taking into account both business and user goals to ensure a successful experience."
         image={
           <StaticImage
-            src="../images/Transat/crazy8.png"
+            src="../images/Videotron/goals.png"
             loading="eager"
-            width={950}
+            width={871}
             quality={100}
             formats={["auto", "webp", "avif"]}
-            alt="business and user goals"
+            alt="project objectives"
           />
         }
       />
       <CaseStudyContentBlock
         supertitle="prototype"
-        title="Navigation revamp"
-        text="With the application redesign objectives in mind, the Tab bar navigation and Menu Plus were revised based on the application usage data gathered."
+        title="User flow"
+        text="To have a clear understanding of the product activation conditions, it was helpful to build the full roaming user flow, starting from the exit of the country. It was a good starting point as well to determine all interfaces needed."
         image={
           <StaticImage
-            src="../images/Transat/nav.png"
+            src="../images/Videotron/flux.png"
             loading="eager"
             width={950}
             quality={100}
             formats={["auto", "webp", "avif"]}
-            alt="business and user goals"
+            alt="User flow"
           />
         }
       />
@@ -124,77 +105,19 @@ export default function VideotronPage () {
         title="Wireframing"
         image={
           <StaticImage
-            src="../images/Transat/wireframes.png"
+            src="../images/Videotron/wireframes.png"
             loading="eager"
             width={1218}
             quality={100}
             formats={["auto", "webp", "avif"]}
-            alt="Wireframes of gift configuration"
+            alt="Wireframes"
           />
         }
       />
       <CaseStudyContentBlock
         supertitle="test"
         title="Usability testing"
-        text={
-            <div>
-                <p>User tests were organized and executed by the experience agency Atecna. We wanted to get users feedback on our current solution by validating those hypothesis:</p>
-                <ul>
-                    <li>Seat and baggage information is quickly accessible to the user.</li>
-                    <li>The distinction between a trip and an itinerary is clear.</li>
-                    <li>Users are interested in the information offered by the application during their vacation.</li>
-                    <li>The possibility of checking in online without adding a trip is not considered by users.</li>
-                </ul>
-            </div>
-        }/>
-      <CaseStudyContent5050
-        b1Style= {{ backgroundColor: `#E3E8EF` }}
-        b1Supertitle= "test"
-        b1Title= "Positive feedback"
-        b1ListItem1= "The new design of the travel page has been very well received."
-        b1ListItem2= "Support 24 hours before the flight was much appreciated, as was the organization of the page."
-        b1ListItem3= "The days before the flight countdown is stimulating."
-        b1ListItem4={<li>The flight information provided is complete.</li>}
-
-        b2Style= {{ backgroundColor: `#E3E8EF` }}
-        b2Supertitle= "test"
-        b2Title= "Areas for improvement"
-        b2ListItem1= "Inactive statuses of check-in and boarding pass must be more explicit."
-        b2ListItem2= "All-inclusive package info should be regrouped. Users do not plan to open the app much during holidays."
-        b2ListItem3= "Luggage and seats info are located at a too deep level."
-        b2ListItem4={<li>Online registration must be mentioned on the home.</li>}
-      />
-      <CaseStudyContentBlock
-        supertitle="test"
-        title="Card sorting"
-        text={"Finally, we wanted to validate the content categorization proposed for the ‘My itinerary’ section. A card sorting exercise has been completed with 21 participants, of which 75% plan three plane trips or more per year.\n\nParticipants were given a list of content blocks and they needed to organize them in logical categories. The results obtained guide us in enhancing the content structure."}
-        image={
-          <StaticImage
-            src="../images/Transat/cardsorting.png"
-            loading="eager"
-            width={950}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="business and user goals"
-          />
-        }
-      />
-      <CaseStudyContentBlock
-        supertitle="test"
-        title="... A few years later"
-        text="In March 2020,  the Covid pandemic affected the globe without saving the travel industry. My work as a UX designer has to stop on this project. Fortunately, it was reconducted years later, and the revamped experience saw the light in the spring of 2023."
-      />
-      <CaseStudyImage
-        image={
-          <StaticImage
-            src="../images/Transat/final.png"
-            loading="eager"
-            width={1350}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="Final design"
-          />
-        }
+        text="The solution has been developed by the Videotron team and tested internally before launching the new product on the market."
       />
     </Layout>
   )  

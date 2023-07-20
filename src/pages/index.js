@@ -21,7 +21,7 @@ export default function IndexPage() {
     <WorkHalf
       title="Garderie Griffin"
       role="ux — ui — dev"
-      description="Designing and integrating a new website for a kindergarten."
+      description="Design and integrate a new website for a kindergarten."
       buttonTitle="Read case study"
       link={()=>{navigate("/garderie-griffin")}}
       style={{ backgroundColor: `#FFF3E7` }}
