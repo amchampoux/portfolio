@@ -6,8 +6,10 @@ exports.components = {
   "component---src-pages-garderie-griffin-js": () => import("./../../../src/pages/garderie-griffin.js?export=default" /* webpackChunkName: "component---src-pages-garderie-griffin-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-page-2-js": () => import("./../../../src/pages/page-2.js?export=default" /* webpackChunkName: "component---src-pages-page-2-js" */),
+  "component---src-pages-transat-js": () => import("./../../../src/pages/transat.js?export=default" /* webpackChunkName: "component---src-pages-transat-js" */),
   "component---src-pages-using-ssr-js": () => import("./../../../src/pages/using-ssr.js?export=default" /* webpackChunkName: "component---src-pages-using-ssr-js" */),
   "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx?export=default" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */),
+  "component---src-pages-videotron-js": () => import("./../../../src/pages/videotron.js?export=default" /* webpackChunkName: "component---src-pages-videotron-js" */),
   "component---src-templates-using-dsg-js": () => import("./../../../src/templates/using-dsg.js?export=default" /* webpackChunkName: "component---src-templates-using-dsg-js" */)
 }
 

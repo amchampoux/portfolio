@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import "./header.css"
 import { withPrefix } from "gatsby"
-import PDF from '../static/amc-resume1.pdf'
+import PDF from '../static/amc-resume2.pdf'
 
 export default function Header() {
 

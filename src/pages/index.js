@@ -59,6 +59,7 @@ export default function IndexPage() {
       role="ux"
       description="Rethink the mobile application experience."
       buttonTitle="Read case study"
+      link={()=>{navigate("/transat")}}
       style={{ backgroundColor: `#E3E8EF` }}
       image = {
         <StaticImage
@@ -72,42 +73,27 @@ export default function IndexPage() {
       }
     />
     <WorkFull
-      title="Hogbnk"
-      role="ux — ui — dev"
-      description="Design and develop a budget management application."
-      buttonTitle="Read case study"
-      style={{ backgroundColor: `#F0E8E4` }}
-      image = {
-        <StaticImage
-          src="../images/Hogbnk/main.png"
-          loading="eager"
-          width={844}
-          quality={100}
-          formats={["auto", "webp", "avif"]}
-          alt=""
-        />
-      }
-    />
-    <WorkHalf
       title="Videotron x Sidlee"
       role="ux"
-      description="Enhance the roaming on mobile experience for travelers."
+      description="Define the roaming on mobile experience for travelers."
       buttonTitle="Read case study"
+      link={()=>{navigate("/videotron")}}
       style={{ backgroundColor: `#EFECEB` }}
       image = {
         <StaticImage
           src="../images/Videotron/main.png"
           loading="eager"
-          width={591}
+          width={882}
           quality={100}
           formats={["auto", "webp", "avif"]}
           alt=""
         />
       }
     />
+ 
 
 
-      
+  
     {/* <div className={styles.textCenter}>  */}
 
 

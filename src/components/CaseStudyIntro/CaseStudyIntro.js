@@ -18,9 +18,9 @@ export default function CaseStudyIntro(props) {
           <p className="intro_description">{props.description}</p>
           <button 
             role="link"
-            onClick={() => openInNewTab(props.link)}
+            onClick={() => openInNewTab(props?.link)}
             className="primary_button">
-            {props.buttonLabel}
+            {props?.buttonLabel}
           </button>
         </div>
         <div className="intro_right">

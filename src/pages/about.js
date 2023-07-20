@@ -12,7 +12,7 @@ export default function AboutPage () {
       <div className={styles.about}>
         <StaticImage
             className={styles.profile}
-            src="../images/profile.png"
+            src="../images/profile2.png"
             loading="eager"
             width={430}
             quality={100}
@@ -34,7 +34,7 @@ export default function AboutPage () {
             <li> And more!</li>
           </ul>
           <p>With every new project, comes an industry with its trends, users, behaviors, and goals to achieve. It is fulfilling to immerse yourself in a new environment every time and to create a product that matters.</p>
-          <p>Working in interactive agencies for more than 10 years now, I had the chance to were multiple hats, including the one of Product Owner. As well, during the last few years, I decided to leap into development. What was at first a hobby became a passion, so I undertook to perfect my learning with LightHouseLabs. </p>
+          <p>Working in interactive agencies for more than 12 years now, I had the chance to were multiple hats, including the one of Product Owner. As well, during the last few years, I decided to leap into development. What was at first a hobby became a passion, so I undertook to perfect my learning with LightHouseLabs. </p>
           <p>Hard work pays off, and today, I am happy to be working on what I love ❤️ </p>
         </div>
       </div>

@@ -13,6 +13,7 @@ export default function CaseStudyContent5050(props) {
             <li>{props.b1ListItem1}</li>
             <li>{props.b1ListItem2}</li>
             <li>{props.b1ListItem3}</li>
+            {props?.b1ListItem4}
           </ol>
         </div>
 
@@ -23,6 +24,7 @@ export default function CaseStudyContent5050(props) {
             <li>{props.b2ListItem1}</li>
             <li>{props.b2ListItem2}</li>
             <li>{props.b2ListItem3}</li>
+            {props?.b2ListItem4}
           </ol>
         </div>
 

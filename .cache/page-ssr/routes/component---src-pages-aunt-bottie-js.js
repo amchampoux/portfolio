@@ -1114,6 +1114,42 @@ function CaseStudyProcess(props) {
 
 /***/ }),
 
+/***/ "./src/components/CaseStudyQuote/CaseStudyQuote.js":
+/*!*********************************************************!*\
+  !*** ./src/components/CaseStudyQuote/CaseStudyQuote.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CaseStudyQuote)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CaseStudyQuote_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CaseStudyQuote.css */ "./src/components/CaseStudyQuote/CaseStudyQuote.css");
+/* harmony import */ var _CaseStudyQuote_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CaseStudyQuote_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout.css */ "./src/components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function CaseStudyQuote(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "quote"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "quote_container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "quote_color",
+    style: props.style
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "quote_text"
+  }, props.text)));
+}
+;
+
+/***/ }),
+
 /***/ "./src/components/header.js":
 /*!**********************************!*\
   !*** ./src/components/header.js ***!
@@ -1233,13 +1269,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CaseStudyHeader_CaseStudyHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/CaseStudyHeader/CaseStudyHeader */ "./src/components/CaseStudyHeader/CaseStudyHeader.js");
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_index_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/index.module.css */ "./src/components/index.module.css");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_CaseStudyIntro_CaseStudyIntro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CaseStudyIntro/CaseStudyIntro */ "./src/components/CaseStudyIntro/CaseStudyIntro.js");
 /* harmony import */ var _components_CaseStudyProcess_CaseStudyProcess__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/CaseStudyProcess/CaseStudyProcess */ "./src/components/CaseStudyProcess/CaseStudyProcess.js");
 /* harmony import */ var _components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/CaseStudyContentBlock/CaseStudyContentBlock */ "./src/components/CaseStudyContentBlock/CaseStudyContentBlock.js");
 /* harmony import */ var _components_CaseStudyContent5050_CaseStudyContent5050__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/CaseStudyContent5050/CaseStudyContent5050 */ "./src/components/CaseStudyContent5050/CaseStudyContent5050.js");
 /* harmony import */ var _components_CaseStudyContentVisual_CaseStudyContentVisual__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/CaseStudyContentVisual/CaseStudyContentVisual */ "./src/components/CaseStudyContentVisual/CaseStudyContentVisual.js");
 /* harmony import */ var _components_CaseStudyImage_CaseStudyImage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/CaseStudyImage/CaseStudyImage */ "./src/components/CaseStudyImage/CaseStudyImage.js");
+/* harmony import */ var _components_CaseStudyQuote_CaseStudyQuote__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/CaseStudyQuote/CaseStudyQuote */ "./src/components/CaseStudyQuote/CaseStudyQuote.js");
+
 
 
 
@@ -1259,7 +1297,7 @@ function AuntBottiePage() {
       backgroundColor: `#ECF4F3`
     },
     title: "Aunt Bottie",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/main.png",
       loading: "eager",
       width: 957,
@@ -1280,7 +1318,7 @@ function AuntBottiePage() {
     style: {
       backgroundColor: `#ECF4F3`
     },
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/design-process.png",
       loading: "eager",
       width: 830,
@@ -1293,11 +1331,16 @@ function AuntBottiePage() {
     supertitle: "empathize",
     title: "Market research",
     text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "The Plant and Flower industry is at the heart of the application. Before talking about functionalities, some research was needed to make sure that we have an overview of the market and to align our product objectives with business and user needs. We also wanted to have a good understanding of artificial intelligence emergence and figure out how we can leverage its benefits."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Here are some key findings that guide us in the product definition."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, "Customers trends"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Millennials saw the biggest demographic growth in 2021 houseplant sales at 65%. (Garden Center Magazine)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Most people in the US still prefer to buy their houseplants from home improvement stores (30%) and garden centers (29%). (Floral Marketing Fund)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "19% of plant purchasers plan to increase their spending at online plant stores. (Floral Marketing Fund)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "59% of plant buyers say that houseplants are important to their health and wellness. (Craftjack)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, "Artificial intelligence (AI) "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "The AI market is growing by more than 20% each year."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "35% of businesses are already using AI tools in their everyday operations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "97% of people who use a computerized device interact with AI on a daily basis."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "ChatGPT is a text-generating AI and reached more than 100 million users in a shorter time than any other software in history (less than 2 months). (findweb3)")))
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyQuote_CaseStudyQuote__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    style: {
+      backgroundColor: `#ECF4F3`
+    },
+    text: '60-70% of plant purchasers indicate a positive likelihood to gift a houseplant. “Get Well” being the most likely occasion at 75.1%, “Mother’s Day” at 72.9% and “Thank You” at 71.7%.\n\nFloral Marketing Fund'
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
     supertitle: "empathize",
     title: "Competitive analysis",
     text: "There is a keen interest in the market for plant gifting and the use of AI, in particular ChatGPT is rising. How can our application stand out from the competition? An analysis of some key industry players helped us identify how Aunt Bottie can offer a distinctive service to its customers.",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/benchmark.png",
       loading: "eager",
       width: 950,
@@ -1310,7 +1353,7 @@ function AuntBottiePage() {
     supertitle: "define",
     title: "Objectives",
     text: "With the support of the information gathered, we brainstormed around our product definition. The product strategy needs to meet both business and user goals.",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/goals.png",
       loading: "eager",
       width: 871,
@@ -1327,7 +1370,7 @@ function AuntBottiePage() {
     supertitle: "prototype",
     title: "User flow",
     text: "To ensure that we cover all user requirements, a user journey on the application was drawn. This allowed us to identify quickly the main interfaces needed.",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/flow.png",
       loading: "eager",
       width: 950,
@@ -1342,7 +1385,7 @@ function AuntBottiePage() {
     },
     supertitle: "prototype",
     title: "Gift configuration",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/wireframes.png",
       loading: "eager",
       width: 1218,
@@ -1354,7 +1397,7 @@ function AuntBottiePage() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyContentBlock_CaseStudyContentBlock__WEBPACK_IMPORTED_MODULE_6__["default"], {
     supertitle: "prototype",
     title: "UI style guide",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/styleguide.png",
       loading: "eager",
       width: 950,
@@ -1369,7 +1412,7 @@ function AuntBottiePage() {
     },
     supertitle: "prototype",
     title: "Mockups",
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/mockups.png",
       loading: "eager",
       width: 1218,
@@ -1383,7 +1426,7 @@ function AuntBottiePage() {
     title: "Iterate, iterate and iterate",
     text: `Aunt Bottie was created as our final Bootcamp project and we didn’t had much time to test our MVP solution. Having so, we would have validate at least the users understanding of the gift configuration steps, which is the most complex and important part of the app.\n\nWe have a backlog of improvements we would like to tackle that include taking advantage of AI for product recommendation and adding an order management system for admins. Before moving forward, the right approach would be to leverage the existing features, iterate on the current behaviors, than to increase the scope.`
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CaseStudyImage_CaseStudyImage__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
+    image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_11__.StaticImage, {
       src: "../images/Bottie/final.png",
       loading: "eager",
       width: 1350,
@@ -1461,6 +1504,16 @@ function AuntBottiePage() {
 /*!**************************************************************!*\
   !*** ./src/components/CaseStudyProcess/CaseStudyProcess.css ***!
   \**************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/components/CaseStudyQuote/CaseStudyQuote.css":
+/*!**********************************************************!*\
+  !*** ./src/components/CaseStudyQuote/CaseStudyQuote.css ***!
+  \**********************************************************/
 /***/ (() => {
 
 

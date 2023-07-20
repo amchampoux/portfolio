@@ -36,7 +36,7 @@ export default function AuntBottiePage () {
         buttonLabel="See on GitHub"
         link="https://github.com/amchampoux/bottie"
         role= {'User Experience\nVisual Design\nDevelopment'}
-        flexTitle="Stack"
+        flexTitle="stack"
         flexDescription="React, Typescript, Axios, Express, Node.js, PostgreSQL, ChatGPT"
         date="2023"
       />
@@ -82,13 +82,6 @@ export default function AuntBottiePage () {
           text={'60-70% of plant purchasers indicate a positive likelihood to gift a houseplant. “Get Well” being the most likely occasion at 75.1%, “Mother’s Day” at 72.9% and “Thank You” at 71.7%.\n\nFloral Marketing Fund' 
         }
       />
-
-      {/* 
-      ///////////////////////////////
-      New bloc to create for quote!!! 
-      ///////////////////////////////
-      */}
-
       <CaseStudyContentBlock
         supertitle="empathize"
         title="Competitive analysis"
@@ -120,7 +113,7 @@ export default function AuntBottiePage () {
         }
       />
       <CaseStudyContentBlock
-        supertitle="define"
+        supertitle="ideate"
         title="Minimal viable product (MVP)"
         text={
           <div>
