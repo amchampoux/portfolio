@@ -149,9 +149,9 @@ var fields = "about-module--fields--88a0c";
 
 /***/ }),
 
-/***/ "./src/static/amc-resume1.pdf":
+/***/ "./src/static/amc-resume2.pdf":
 /*!************************************!*\
-  !*** ./src/static/amc-resume1.pdf ***!
+  !*** ./src/static/amc-resume2.pdf ***!
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -160,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume1-e212659111e313c630bde34d853d41c7.pdf");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume2-b27aedce7aa33a11f99af2a29e87bdb6.pdf");
 
 /***/ }),
 
@@ -875,7 +875,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.css */ "./src/components/header.css");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume1.pdf */ "./src/static/amc-resume1.pdf");
+/* harmony import */ var _static_amc_resume2_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume2.pdf */ "./src/static/amc-resume2.pdf");
 
 
 
@@ -900,7 +900,7 @@ function Header() {
   }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "secondary-link",
     rel: "noopener noreferrer",
-    href: _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
+    href: _static_amc_resume2_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
     target: "_blank"
   }, " Resume")))));
 }
@@ -987,18 +987,18 @@ function AboutPage() {
     className: _components_about_module_css__WEBPACK_IMPORTED_MODULE_2__.about
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     className: _components_about_module_css__WEBPACK_IMPORTED_MODULE_2__.profile,
-    src: "../images/profile.png",
+    src: "../images/profile2.png",
     loading: "eager",
     width: 430,
     quality: 100,
     formats: ["auto", "webp", "avif"],
     alt: "User flow",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2777402924.json */ "./.cache/caches/gatsby-plugin-image/2777402924.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/481488278.json */ "./.cache/caches/gatsby-plugin-image/481488278.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: _components_about_module_css__WEBPACK_IMPORTED_MODULE_2__.description
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hi, I am Anne-Marie."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I am a Product Designer and Front-end Developer with a passion for creating user-centric products. I am committed to delivering engaging and meaningful user experiences."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Every time I someone enjoy an application I worked on, it reminds me why I do what I do: To help people in their daily life, to improve productivity at work, to ease access to information, or just to entertain."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "As far as I remember, I have always had an attraction and talent for the arts. It took time before I find my way into digital design. With the rise of social media around 2010, I realize that I wanted to have an impact on people through the technology that was taking more and more place in our lives."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I completed a Master's degree in Interaction design at Laval University where I learned about interface design, information architecture, and design fundamentals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "From there, my career as a UX designer started. I had the chance to work in various fields:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: _components_about_module_css__WEBPACK_IMPORTED_MODULE_2__.fields
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCB0 Banking"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCFA Entertainment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83C\uDF77 E-Commerce"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\u2708\uFE0F Traveling"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, " And more!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With every new project, comes an industry with its trends, users, behaviors, and goals to achieve. It is fulfilling to immerse yourself in a new environment every time and to create a product that matters."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Working in interactive agencies for more than 10 years now, I had the chance to were multiple hats, including the one of Product Owner. As well, during the last few years, I decided to leap into development. What was at first a hobby became a passion, so I undertook to perfect my learning with LightHouseLabs. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hard work pays off, and today, I am happy to be working on what I love \u2764\uFE0F "))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCB0 Banking"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83D\uDCFA Entertainment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\uD83C\uDF77 E-Commerce"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "\u2708\uFE0F Traveling"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, " And more!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With every new project, comes an industry with its trends, users, behaviors, and goals to achieve. It is fulfilling to immerse yourself in a new environment every time and to create a product that matters."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Working in interactive agencies for more than 12 years now, I had the chance to were multiple hats, including the one of Product Owner. As well, during the last few years, I decided to leap into development. What was at first a hobby became a passion, so I undertook to perfect my learning with LightHouseLabs. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hard work pays off, and today, I am happy to be working on what I love \u2764\uFE0F "))));
 }
 
 /***/ }),
@@ -1023,14 +1023,14 @@ function AboutPage() {
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2777402924.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2777402924.json ***!
-  \***********************************************************/
+/***/ "./.cache/caches/gatsby-plugin-image/481488278.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/481488278.json ***!
+  \**********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#a89898","images":{"fallback":{"src":"/static/7f4e9fc25a5f0664645b9f41b370a048/d6e76/profile.png","srcSet":"/static/7f4e9fc25a5f0664645b9f41b370a048/5d30a/profile.png 108w,\\n/static/7f4e9fc25a5f0664645b9f41b370a048/5c7c0/profile.png 215w,\\n/static/7f4e9fc25a5f0664645b9f41b370a048/d6e76/profile.png 430w","sizes":"(min-width: 430px) 430px, 100vw"},"sources":[{"srcSet":"/static/7f4e9fc25a5f0664645b9f41b370a048/cf1ba/profile.avif 108w,\\n/static/7f4e9fc25a5f0664645b9f41b370a048/b9bae/profile.avif 215w,\\n/static/7f4e9fc25a5f0664645b9f41b370a048/cd748/profile.avif 430w","type":"image/avif","sizes":"(min-width: 430px) 430px, 100vw"},{"srcSet":"/static/7f4e9fc25a5f0664645b9f41b370a048/5e034/profile.webp 108w,\\n/static/7f4e9fc25a5f0664645b9f41b370a048/e6121/profile.webp 215w,\\n/static/7f4e9fc25a5f0664645b9f41b370a048/9727c/profile.webp 430w","type":"image/webp","sizes":"(min-width: 430px) 430px, 100vw"}]},"width":430,"height":573}');
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/fae82be178d00d41a2457e51f47f6da4/d6e76/profile2.png","srcSet":"/static/fae82be178d00d41a2457e51f47f6da4/5d30a/profile2.png 108w,\\n/static/fae82be178d00d41a2457e51f47f6da4/5c7c0/profile2.png 215w,\\n/static/fae82be178d00d41a2457e51f47f6da4/d6e76/profile2.png 430w,\\n/static/fae82be178d00d41a2457e51f47f6da4/6fcee/profile2.png 860w","sizes":"(min-width: 430px) 430px, 100vw"},"sources":[{"srcSet":"/static/fae82be178d00d41a2457e51f47f6da4/cf1ba/profile2.avif 108w,\\n/static/fae82be178d00d41a2457e51f47f6da4/b9bae/profile2.avif 215w,\\n/static/fae82be178d00d41a2457e51f47f6da4/cd748/profile2.avif 430w,\\n/static/fae82be178d00d41a2457e51f47f6da4/5ef6f/profile2.avif 860w","type":"image/avif","sizes":"(min-width: 430px) 430px, 100vw"},{"srcSet":"/static/fae82be178d00d41a2457e51f47f6da4/5e034/profile2.webp 108w,\\n/static/fae82be178d00d41a2457e51f47f6da4/e6121/profile2.webp 215w,\\n/static/fae82be178d00d41a2457e51f47f6da4/9727c/profile2.webp 430w,\\n/static/fae82be178d00d41a2457e51f47f6da4/ac015/profile2.webp 860w","type":"image/webp","sizes":"(min-width: 430px) 430px, 100vw"}]},"width":430,"height":573}');
 
 /***/ }),
 

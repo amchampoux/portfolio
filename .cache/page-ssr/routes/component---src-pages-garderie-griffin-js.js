@@ -145,9 +145,9 @@ var title = "index-module--title--20f3b";
 
 /***/ }),
 
-/***/ "./src/static/amc-resume1.pdf":
+/***/ "./src/static/amc-resume2.pdf":
 /*!************************************!*\
-  !*** ./src/static/amc-resume1.pdf ***!
+  !*** ./src/static/amc-resume2.pdf ***!
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -156,7 +156,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume1-e212659111e313c630bde34d853d41c7.pdf");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/amc-resume2-b27aedce7aa33a11f99af2a29e87bdb6.pdf");
 
 /***/ }),
 
@@ -885,14 +885,14 @@ function CaseStudyContent5050(props) {
     className: "half_title"
   }, props.b1Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ol", {
     className: "half_list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem3))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b1ListItem3), props === null || props === void 0 ? void 0 : props.b1ListItem4)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "block_half",
     style: props.b2Style
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, props.b2Supertitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "half_title"
   }, props.b2Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ol", {
     className: "half_list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem3))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, props.b2ListItem3), props === null || props === void 0 ? void 0 : props.b2ListItem4)));
 }
 ;
 
@@ -1070,9 +1070,9 @@ function CaseStudyIntro(props) {
     className: "intro_description"
   }, props.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     role: "link",
-    onClick: () => openInNewTab(props.link),
+    onClick: () => openInNewTab(props === null || props === void 0 ? void 0 : props.link),
     className: "primary_button"
-  }, props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, props === null || props === void 0 ? void 0 : props.buttonLabel)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "intro_right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "role"
@@ -1130,7 +1130,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.css */ "./src/components/header.css");
 /* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume1.pdf */ "./src/static/amc-resume1.pdf");
+/* harmony import */ var _static_amc_resume2_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/amc-resume2.pdf */ "./src/static/amc-resume2.pdf");
 
 
 
@@ -1155,7 +1155,7 @@ function Header() {
   }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "secondary-link",
     rel: "noopener noreferrer",
-    href: _static_amc_resume1_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
+    href: _static_amc_resume2_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
     target: "_blank"
   }, " Resume")))));
 }
