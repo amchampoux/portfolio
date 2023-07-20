@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@parcel/watcher": "^2.2.0",
-    "gatsby": "^5.11.0",
+    "gatsby": "^5.12.0-next.1",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.10.0",
     "gatsby-plugin-sharp": "^5.11.0",
